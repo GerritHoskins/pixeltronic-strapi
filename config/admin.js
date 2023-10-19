@@ -10,4 +10,6 @@ module.exports = ({ env }) => ({
       salt: env('TRANSFER_TOKEN_SALT'),
     },
   },
+  port: 1337,
+  url: env('ADMIN_URL'),
 });
